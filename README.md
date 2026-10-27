@@ -285,7 +285,7 @@ $$
 Ketika algoritma menguji ke-168 kemungkinan indeks $N_{ID}^{(1)}$, probabilitas terjadinya kesalahan deteksi pada satu frame tunggal adalah:
 
 $$
-P_{\text{total\_false}} \le 168 \times \frac{1}{65.536} \approx 0{,}256\,\%
+P_{\text{total, false}} \le 168 \times \frac{1}{65.536} \approx 0{,}256\,\%
 $$
 
 Selain itu, skrip menerapkan verifikasi multi-frame (misalnya mewajibkan validasi CRC MIB pada beberapa frame berturut-turut, seperti 4/4 atau 8/8 frame, serta mengevaluasi keteraturan kenaikan SFN secara sekuensial). Probabilitas terjadinya kecocokan palsu pada beberapa frame berturut-turut adalah $(1/65.536)^k \approx 0$. Oleh karena itu, proteksi CRC-16 dikombinasikan dengan konsistensi temporal SFN menjamin bahwa tidak ada PCI palsu yang dapat lolos verifikasi.
