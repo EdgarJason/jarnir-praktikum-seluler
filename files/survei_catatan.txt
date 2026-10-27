@@ -1,0 +1,14 @@
+16 carrier lebar, 8 sel LTE terbaca, 3 garis sempit kemungkinan GSM.
+Kesalahan osilator HackRF: -1,58 ppm (dari sel pertama yang MIB-nya terbaca),
+Jam A, fase SFN 7488,6 ms, bukan waktu GPS (selisih -111 ms): offset SFN sendiri: PCI 144 di 1870,0; PCI 58 di 2130,0; PCI 264 di 2160,0; PCI 58 di 1847,5; PCI 58 di 945,2; PCI 58 di 1832,5; PCI 144 di 2310,0,
+PCI 58 dipakai di 945,2 dan 1832,5 dan 1847,5 dan 2130,0 MHz dengan jam yang sama -> kemungkinan satu sektor yang melayani beberapa carrier (operator sering memakai PCI yang sama untuk semua carrier satu sektor),
+PCI 144 dipakai di 1870,0 dan 2310,0 MHz dengan jam yang sama -> kemungkinan satu sektor yang melayani beberapa carrier (operator sering memakai PCI yang sama untuk semua carrier satu sektor),
+PCI hanya 504 nilai dan dipakai ulang di seluruh kota: untuk lokasi tower, cocokkan EARFCN + PCI dengan eNB ID di aplikasi ponsel (NetMonster), lalu cari di cellmapper.net / OpenCelliD.
+928,7 MHz (B8 900): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+931,9 MHz (B8 900): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+936,3 MHz (B8 900): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+951,5 MHz (B8 900): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+955,6 MHz (B8 900): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+2334,9 MHz (B40 2300): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+2360,0 MHz (B40 2300): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
+2381,5 MHz (B40 2300): tidak ada PSS LTE (GSM, 5G NR, atau sinyal lain),
