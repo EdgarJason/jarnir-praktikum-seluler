@@ -1,6 +1,8 @@
 # Laporan Praktikum Jaringan Nirkabel
 ## Bab 5 Wireless WAN: Analisis Sinyal Seluler Berbasis Software-Defined Radio (SDR)
 
+**Nama:** Edgar Jason Husin  
+**NIM:** 245150201111047  
 **Mata Kuliah:** CIF65217 Jaringan Nirkabel  
 **Topik:** Bab 5 Wireless WAN: Seluler (GSM, LTE FDD, LTE TDD, & Cell Search)  
 **Perangkat & Dataset:** HackRF One SDR, Rekaman IQ (In-phase/Quadrature) `.cs8`, dan Sweep Spektrum `.csv`  
@@ -135,15 +137,13 @@ Untuk meniadakan interferensi antar-simbol (ISI) yang timbul akibat fenomena dis
 Analisis dilakukan terhadap rekaman IQ sinyal LTE pada frekuensi tengah 1870 MHz (sampling rate 20 Msps).
 
 ### 3.2 Visualisasi Hasil Pengamatan
-````carousel
 ![Spektrum Rata-rata LTE 1870 MHz](files/p3_lte1870_spektrum.png)
-<!-- slide -->
+
 ![Karakteristik OFDM dan Cyclic Prefix](files/p3_lte1870_ofdm.png)
-<!-- slide -->
+
 ![Spektrogram Sinyal LTE 1870 MHz](files/p3_lte1870_spektrogram.png)
-<!-- slide -->
+
 ![Selubung Daya FDD LTE 1870 MHz](files/p3_lte1870_selubung.png)
-````
 
 ### 3.3 Ulasan & Anotasi Visual Gambar Percobaan 3
 1. **`p3_lte1870_spektrum.png`:**
@@ -300,15 +300,13 @@ Pada moda *Time Division Duplex* (TDD) yang digunakan pada Band 40 (2300–2400 
 Analisis dilakukan terhadap rekaman IQ sinyal LTE TDD di frekuensi 2330 MHz.
 
 ### 5.2 Visualisasi Hasil Pengamatan
-````carousel
 ![Spektrum LTE TDD 2330 MHz](files/p5_tdd2330_spektrum.png)
-<!-- slide -->
+
 ![Karakteristik OFDM TDD 2330 MHz](files/p5_tdd2330_ofdm.png)
-<!-- slide -->
+
 ![Spektrogram TDD LTE 2330 MHz](files/p5_tdd2330_spektrogram.png)
-<!-- slide -->
+
 ![Selubung Daya Periodik TDD 2330 MHz](files/p5_tdd2330_selubung.png)
-````
 
 ### 5.3 Ulasan & Anotasi Visual Gambar Percobaan 5
 1. **`p5_tdd2330_spektrum.png`:**
